@@ -40,7 +40,7 @@ flush_routes()
 
 	for CONTENT in $(cat ${FILE}); do
 		# flush routes here to make sure they are recycled properly
-		route delete -${AF} "${CONTENT}"
+		#route delete -${AF} "${CONTENT}"
 	done
 }
 
